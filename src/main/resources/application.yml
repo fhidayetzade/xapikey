@@ -4,29 +4,32 @@ spring:
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
 credentials:
   client:
   - api-key: 0adf-7c2c-9e37-4378-8161-2d5d-2d88-3a8a
     consumer: consumer-x
     username: username-x
     password: password-x
-  - api-key: 0363-e6ff-ff6a-4983-a9c6-f91e-bb4d-1e42
+  - api-key: 6d4d-3dca--f46-8-4f-ff-9-fff--d813-a35c-5896
     consumer: consumer-x
     username: username-x
     password: password-x
-  - api-key: c418-02f1-1b39-426c-908b-9f57-6525-48a8
+  - api-key: ee68-8b97--289-4-49-20-a-4b4--9430-a180-db5e
     consumer: consumer-x
     username: username-x
     password: password-x
-  - api-key: 392f-179c-d762-4b02-a128-9480-ce5d-da9e
+  - api-key: 35da-a419--e8e-9-4f-e9-8-c9b--e088-4363-c18a
     consumer: consumer-x
     username: username-x
     password: password-x
-  - api-key: 1515-7e42--ab9-2-41-27-b-e3d--abcd-2947-544d
+  - api-key: ac21-2c34--172-4-44-2a-b-c36--09a1-c52f-d8e7
     consumer: consumer-x
     username: username-x
     password: password-x
-  - api-key: 9545-b6cc--450-2-44-bf-a-960--e92b-2bad-6978
+  - api-key: 0781-d7e7--632-0-4f-5f-b-431--02f4-8eab-31a4
     consumer: consumer-x
     username: username-x
     password: password-x

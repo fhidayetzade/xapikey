@@ -1,9 +1,11 @@
 package com.example.xapikey.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
 @Table(name = "md5_tokens")
+@Data
 public class MD5Token {
 
     @Id
@@ -12,22 +14,8 @@ public class MD5Token {
 
     @Column(nullable = false, unique = true)
     private String token;
-
-    // Getters and Setters
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
-    public void setToken(String token) {
-        this.token = token;
-    }
+    private String consumer;
+    private String username;
+    private String password;
 }
 
